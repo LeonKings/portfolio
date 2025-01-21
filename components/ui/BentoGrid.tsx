@@ -57,13 +57,13 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center ")}
+              className={cn(imgClassName, "object-cover")}
             />
           )}
         </div>
         {id === 3 && (
           <AuroraBackground>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold"></div>
+            <div></div>
           </AuroraBackground>
         )}
         <div
@@ -72,7 +72,10 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col  px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-bold text-lg text-neutral-600 dark:text-neutral-200 lg:text-3xl max-w-96 z-10">
+          <div
+            className="font-sans font-bold text-lg text-neutral-600 dark:text-neutral-200 lg:text-3xl max-w-96 z-10"
+            style={{ WebkitTextStroke: "1px black" }}
+          >
             {title}
           </div>
           <div className="font-sans font-bold text-lg text-neutral-600 opacity-70 dark:text-neutral-200 lg:text-xl max-w-96 z-10">
