@@ -31,7 +31,7 @@ const Hero = () => {
             words={"Transorming Concepts into Seamless User Experiences"}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Lemuel, a React.js Developer based in Indonesia.
+            Hi, I&apos;m Lemuel, a React.js Developer based in Indonesia.
           </p>
           <a href="#projects">
             <MagicButton

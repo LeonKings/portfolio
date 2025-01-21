@@ -155,7 +155,6 @@ export const gridItems = [
     imgClassName: "md:h-full md:w-full h-[80%] w-[80%] opacity-50 mx-auto",
     titleClassName: "justify-start",
     img: "/css.svg",
-    spareImg: "",
   },
   {
     id: 16,
@@ -165,7 +164,6 @@ export const gridItems = [
     imgClassName: "md:h-full md:w-full h-[80%] w-[80%] opacity-50 mx-auto",
     titleClassName: "justify-start",
     img: "/acui.png ",
-    spareImg: "",
   },
   {
     id: 17,
@@ -175,7 +173,6 @@ export const gridItems = [
     imgClassName: "md:h-full md:w-full h-[80%] w-[80%] opacity-50 mx-auto",
     titleClassName: "justify-start",
     img: "/mui.svg",
-    spareImg: "",
   },
 ];
 
@@ -186,7 +183,7 @@ export const projects = [
     des: "Web landing page for a cafe using ReactJS.",
     img: "/portfolio1.png",
     iconLists: ["/re.svg"],
-    link: "",
+    link: "https://orangered-rook-493442.hostingersite.com/",
   },
   {
     id: 2,
@@ -194,7 +191,7 @@ export const projects = [
     des: "Fitness app using ReactJS, Material UI, and Rapid API.",
     img: "/portfolio2.png",
     iconLists: ["/re.svg", "/mui.svg"],
-    link: "",
+    link: "https://slateblue-whale-592849.hostingersite.com/",
   },
   {
     id: 3,
